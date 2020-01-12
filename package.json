@@ -1,0 +1,21 @@
+{
+	"name": "redux-notes-app",
+	"version": "0.0.1",
+	"description": "Simple notes app used to learn the basics of redux",
+	"main": "index.js",
+	"author": "john gicharu",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.8.0",
+		"@babel/preset-env": "^7.8.0",
+		"babel-loader": "^8.0.6",
+		"webpack": "^4.41.5",
+		"webpack-cli": "^3.3.10"
+	},
+	"scripts": {
+		"dev": "webpack --watch --mode=development"
+	},
+	"dependencies": {
+		"redux": "^4.0.5"
+	}
+}
